@@ -72,6 +72,7 @@ public class LoginApp extends JFrame {
         } catch (Exception e) {
             e.printStackTrace();
         }
+        print("Hello");
         return userName;
     }
 
